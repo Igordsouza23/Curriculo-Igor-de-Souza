@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    width: 800px;
+    box-shadow: 0 0 10px ;
+}
+
+
+.parte_esquerda, .parte_direita {
+    padding: 20px;
+}
+
+.parte_esquerda {
+    background-color: #eaeaea;
+    width: 50%;
+}
+
+.parte_direita {
+    display: table;
+    width: 50%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
